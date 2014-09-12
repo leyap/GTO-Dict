@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1410444792 source:e:\codeblocks\dic\main.c
+	<gtk/gtk.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"chs.h"
+
+1351055900 e:\codeblocks\dic\chs.h
+	<string.h>
+

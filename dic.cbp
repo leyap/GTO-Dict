@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dic" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dic" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-mms-bitfields -ID:/gtk3.6.4/include/gtk-3.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pango-1.0 -ID:/gtk3.6.4/include/atk-1.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pixman-1 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/freetype2 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/gdk-pixbuf-2.0 -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/glib-2.0 -ID:/gtk3.6.4/lib/glib-2.0/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-LD:/gtk3.6.4/lib -lgtk-3 -lgdk-3 -lgdi32 -limm32 -lshell32 -lole32 -Wl,-luuid -lpangocairo-1.0 -lpangoft2-1.0 -lfreetype -lfontconfig -lpangowin32-1.0 -lgdi32 -lpango-1.0 -lm -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dic" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-mms-bitfields -ID:/gtk3.6.4/include/gtk-3.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pango-1.0 -ID:/gtk3.6.4/include/atk-1.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pixman-1 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/freetype2 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/gdk-pixbuf-2.0 -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/glib-2.0 -ID:/gtk3.6.4/lib/glib-2.0/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-LD:/gtk3.6.4/lib -lgtk-3 -lgdk-3 -lgdi32 -limm32 -lshell32 -lole32 -Wl,-luuid -lpangocairo-1.0 -lpangoft2-1.0 -lfreetype -lfontconfig -lpangowin32-1.0 -lgdi32 -lpango-1.0 -lm -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl -mwindows" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mms-bitfields -ID:/gtk3.6.4/include/gtk-3.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pango-1.0 -ID:/gtk3.6.4/include/atk-1.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pixman-1 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/freetype2 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/gdk-pixbuf-2.0 -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/glib-2.0 -ID:/gtk3.6.4/lib/glib-2.0/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-mms-bitfields -ID:/gtk3.6.4/include/gtk-3.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pango-1.0 -ID:/gtk3.6.4/include/atk-1.0 -ID:/gtk3.6.4/include/cairo -ID:/gtk3.6.4/include/pixman-1 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/freetype2 -ID:/gtk3.6.4/include -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/gdk-pixbuf-2.0 -ID:/gtk3.6.4/include/libpng15 -ID:/gtk3.6.4/include/glib-2.0 -ID:/gtk3.6.4/lib/glib-2.0/include" />
+			<Add option="-mwindows" />
+		</Linker>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
